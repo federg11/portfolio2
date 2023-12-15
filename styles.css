@@ -116,6 +116,24 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
+
+.boton {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    font-size: 40px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.boton a i {
+    color: green;
+}
+
+.boton:hover {
+    scale: 1.2;
+}
 /* estilos generales */
 .titulo-seccion{
     font-family: "Yellowtail";
