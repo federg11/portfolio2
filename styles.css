@@ -473,3 +473,8 @@ html{
     .content__imagen:hover > * {
         transform: translateY(0px);
     }
+
+    .link a {
+        margin-right: 16px;
+        color: white;
+    }
